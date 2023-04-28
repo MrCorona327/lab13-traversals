@@ -3,7 +3,7 @@ package bst;
 import java.util.Stack;
 
 public class BinarySearchTree<T extends Comparable<T>> {
-	
+	//footnote to test commits
 	private static class BSTNode<T extends Comparable<T>>{
 		private T data;
 		private BSTNode<T> leftChild;
@@ -17,7 +17,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 			return data.toString();
 		}
 	}
-	
+
 	private BSTNode<T> root;
 	
 	public void insert(T data) {
